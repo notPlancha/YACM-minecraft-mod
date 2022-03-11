@@ -1,0 +1,25 @@
+1st get and launch minecraft vanila (on the version pref) (not pirated)
+
+2nd get jdk and kotlin (and git opt)
+
+3rd get intelij with the minecraft plugins and the kotlin plugins
+
+4rd clone the kotlion for forge and open it on  intelij
+
+5th change the manifest, verison and group
+
+
+6th add repositories tab
+
+
+7th change maven to https://www.cursemaven.com/ inside the repositories
+
+8th add the implementaiton part
+
+9th update to the recentest forge
+
+10th go to mods.toml on resources and change the metadata too + the minecraft version
+
+11th change the modId on mods.toml and on the main object to the standart ^[a-z][a-z0-9_]{1,63}$
+
+12th add parchmentMC
