@@ -1,14 +1,15 @@
-package notPlancha.YACM
+package notPlancha.YACM.eventListeners
 
 
 import net.minecraftforge.event.world.BlockEvent
 import net.minecraftforge.eventbus.api.SubscribeEvent
+import notPlancha.YACM.utils.UtilFuns
 
 object PlayerEventListener{
     @SubscribeEvent
     fun onBlockBreak(event: BlockEvent.BreakEvent){
         if(event.player.isLocalPlayer){
-            Utils.DisplayMessage(event.player.displayName.string + " Broke " + event.state.block.name.string)
+            UtilFuns.displayMessage(event.player.displayName.string + " Broke " + event.state.block.name.string)
         }
     }
 }

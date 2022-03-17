@@ -1,8 +1,7 @@
-package notPlancha.YACM
+package notPlancha.YACM.utils
 
 import net.minecraft.client.Minecraft
 import net.minecraft.client.player.LocalPlayer
-import net.minecraft.network.chat.TextComponent
 
 
 object Redirects {
